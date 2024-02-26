@@ -1,6 +1,7 @@
 FROM python:3.9
 
 COPY  requirements.txt ./
+COPY  elevated-nuance-414716-43c8fcd49778.json ./
 RUN pip install --upgrade pip
 RUN pip install --ignore-installed -r requirements.txt
 RUN pip install explainerdashboard
