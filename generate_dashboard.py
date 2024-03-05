@@ -12,13 +12,12 @@ from sklearn.ensemble import RandomForestClassifier
 from matplotlib import pyplot
 from sklearn.model_selection import GridSearchCV
 
+
 import sys
 import os
 # Obtenez le chemin absolu du répertoire parent du notebook
 notebook_directory = os.path.abspath('')
 # Construisez le chemin absolu du répertoire src
-src_path = os.path.join(notebook_directory, 'home-credit-1.0.0/src/')
-sys.path.insert(0, src_path)
 # import data.features.fem_data  as fem
 # import models.train.Boosting  as boost
 # load a source module from a file
